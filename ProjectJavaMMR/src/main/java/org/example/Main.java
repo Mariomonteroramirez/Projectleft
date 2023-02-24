@@ -42,6 +42,7 @@ public class Main {
         String miTexto = "Hola soy un texto en Java";
         char miCaracter = 'a';*/
 
+        /*
         Scanner scanner = new Scanner(System.in);
 
         String nombre;
@@ -62,6 +63,71 @@ public class Main {
         System.out.println("Su Nombre  es: " + nombre);
         System.out.println("Su edad es: " + edad);
         System.out.println("Su peso es:" + peso);
-        System.out.println("Su altura es:" + altura);
+        System.out.println("Su altura es:" + altura);*/
+
+        //Desarrollar un programa que pida nombre apellido domicilio cuanto cotizo en 2022 y cunto impuesto va a pagar declarar constante de isr de 12%
+
+      /*  final double ISR = 0.12;
+
+        String nombre;
+        String apellido;
+        String domi;
+        double coti;
+
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese nombre: ");
+        nombre = scanner.nextLine();
+
+        System.out.println("Ingrese apellidos: ");
+        apellido = scanner.nextLine();
+
+        System.out.println("Ingresar Domicilio: ");
+        domi = scanner.nextLine();
+
+        System.out.println("Ingrese la cantidad a Cotizar: ");
+        coti = scanner.nextDouble();
+
+        double result = coti * ISR;
+
+        System.out.println("Su nombre es: " + nombre);
+        System.out.println("Sus apellidos son: " + apellido);
+        System.out.println("Su domicilio es: " + domi);
+        System.out.println("El ISR es de: "+ result);
+
+       */
+
+        /*
+        1 Nombre Apellido domicilio precio de su carro
+        2-. Calcular elimpusesto de tenecia = precio del carro  1.3 %
+         */
+
+        Scanner scanner = new Scanner(System.in);
+         final double  tenencia= 0.013 ;
+
+         String nombre;
+         String apelli;
+         String domi;
+         double precar;
+
+        System.out.println("Ingrese su nombre: ");
+        nombre = scanner.nextLine();
+
+        System.out.println("Ingrese sus Apellidos:");
+        apelli = scanner.nextLine();
+
+        System.out.println("ingrese domicilio: ");
+        domi = scanner.nextLine();
+
+        System.out.println("ingrese el precio de su carro: ");
+        precar = scanner.nextDouble();
+
+         double resulta = precar *  tenencia;
+
+        System.out.println("El nombre es: "+ nombre);
+        System.out.println("Sus apellidos son: "+apelli);
+        System.out.println("Su domicilio es: "+ domi);
+        System.out.println("Su tenencia es:"+ resulta);
+
     }
 }
