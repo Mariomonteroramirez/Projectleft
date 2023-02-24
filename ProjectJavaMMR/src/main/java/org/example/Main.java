@@ -102,8 +102,10 @@ public class Main {
         2-. Calcular elimpusesto de tenecia = precio del carro  1.3 %
          */
 
+       /*
         Scanner scanner = new Scanner(System.in);
-         final double  tenencia= 0.013 ;
+
+        final double  tenencia= 0.013 ;
 
          String nombre;
          String apelli;
@@ -128,6 +130,18 @@ public class Main {
         System.out.println("Sus apellidos son: "+apelli);
         System.out.println("Su domicilio es: "+ domi);
         System.out.println("Su tenencia es:"+ resulta);
+        */
+
+        int a = 20;
+        int b = 5;
+        int c = 3;
+
+        if(a>b){
+            System.out.println("a es mayor que b");
+        }else{
+            System.out.println("a no es mayor que b");
+        }
+
 
     }
 }
