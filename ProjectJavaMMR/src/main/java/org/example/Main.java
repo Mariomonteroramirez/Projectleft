@@ -15,7 +15,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        int n1,n2,n3,n4;
+        /*int n1,n2,n3,n4;
 
         System.out.println("Ingrese numero 1: ");
         n1 = scanner.nextInt();
@@ -38,6 +38,68 @@ public class Main {
         else{
             System.out.println("Los numeros son iguales");
         }
+        */
+
+       /*
+        String nombre;
+        for(int i = 0; i < 5 ; i++){
+            System.out.println("Ingrese su nombre: ");
+            nombre = scanner.nextLine();
+            System.out.println("Te llamas:"+nombre);
+
+        }
+        */
+
+        /*
+        int numero,result;
+        for ( int i = 0; i < 3; i++){
+             System.out.println("ingresa un numero");
+             numero = scanner.nextInt();
+             result = numero * numero ;
+             System.out.println("El resultado es: "+result);
+         }
+         */
+
+
+
+         //ingresa num1 num2 suma reite 6
+
+        /*
+        int num1,num2,suma;
+        for(int i = 0; i < 6; i++){
+             System.out.println("Ingrese Numero 1: ");
+             num1 = scanner.nextInt();
+             System.out.println("Ingrese Numero 2: ");
+             num2 = scanner.nextInt();
+             suma = num1 + num2 ;
+             System.out.println("El resultado de la suma es: "+suma);
+         }
+         */
+
+        //ingre su edad
+
+       /*
+        int edad;
+         for(int i = 0; i < 4; i++){
+             System.out.println( "Ingresa tu edad:");
+             edad = scanner.nextInt();
+             if ( edad > 17){
+                 System.out.println("Usted es mayor de edad");
+             }else{
+                 System.out.println("Usted es menor de edad");
+             }
+         }
+        */
+
+        double miArrayDouble[] = new double[7];
+
+        for(int i = 0 ; i < 7; i++){
+            miArrayDouble[i] = scanner.nextInt();
+        }
+
+
+
+
 
 
     }
