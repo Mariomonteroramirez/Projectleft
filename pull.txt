@@ -1,0 +1,2 @@
+En github pull es utilizado los cambios mas recientes de un repositorio remoto y fucionarlos con el repositorio local
+este buscando los cambios mas recientes en el repocitorio remoto y los descarga 
